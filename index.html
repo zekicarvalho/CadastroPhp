@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastro</title>
+	<link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		.body { background-color: black;}
+		.card { background-color: white;}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+		<span class="navbar-text">
+		  Cadastro simples
+		<form action="login.php" method="post">
+			Usuario:&nbsp; <input name="usuario" type="text" />
+			Senha:&nbsp;<input name="senha" type="password" />
+			<input type="submit" value="Login" /></p>
+		</form>
+		</span>
+	</nav>
+
+		<div class="body">
+	<center>
+	<div class="card" style="width: 18rem;">
+	<form action="registrar.php" method="post">
+		<p>Email:&nbsp; <input name="mail" type="text" /></p>
+		<p>Nome:&nbsp; <input name="nome" type="text" /></p>
+		<p>Usuario:&nbsp;<input name="usuario" type="text" /></p>
+		<p>Senha:&nbsp;<input name="senha" type="password" /></p>
+		<p>RG:&nbsp;<input name="rg" type="number" /></p>
+		<p>CPF:&nbsp;<input name="cpf" type="number" /></p>
+		<p>Endereço:&nbsp;<input name="end" type="text" /></p>
+		<p>Telefone:&nbsp;<input name="tel" type="number" /></p>
+		<p>Cidade:&nbsp;<input name="cid" type="text" /></p>
+		<p>Bairro:&nbsp;<input name="bairro" type="text" /></p>
+		<p>Estado:&nbsp;<input name="estado" type="text" /></p>
+		<div class="form-group form-check">
+			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+			<label class="form-check-label" for="exampleCheck1">Concordar com o cadastro</label>
+		  </div>
+		<input type="submit" value="Registrar-se" />&nbsp;</form><p>&nbsp;</p>
+		</div>
+		</form>
+	</center>
+</div>
+</body>
+</html>
